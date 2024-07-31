@@ -69,3 +69,19 @@ dotnet test
 
 ## Help
 To learn more about the template go to the [project website](https://github.com/jasontaylordev/CleanArchitecture). Here you can find additional guidance, request new features, report a bug, and discuss the template with other users.
+
+
+## Directory:
+
+.azure/
+.github/
+.scripts/
+src/
+|__Application/
+|__ Domain/
+|__ Infrastructure/
+|__ Web/
+tests/
+.gitignore
+ca_react_sqlite.sln
+....
