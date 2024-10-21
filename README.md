@@ -85,3 +85,15 @@ tests/
 .gitignore
 ca_react_sqlite.sln
 ....
+
+${env.SOLUTION_FILE}="ca_react_sqlite.sln"
+$version="2.0.0.2"
+$outputFolder="publish"
+dotnet build ${env.SOLUTION_FILE} --configuration Release /p:Version="$version" /p:AssemblyVersion="$version" `
+      /p:VersionSuffix="" /p:SourceRevisionId="" ` --output $outputFolder --no-incremental
+     
+
+     /p:FileVersion="$version"
+     /p:InformationalVersion="$version"
+## To clean previous builds(only related to local.csproj files)
+    dotnet clean ${env.SOLUTION_FILE} -c Release

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <RootNamespace>ca_react_sqlite.Application</RootNamespace>
     <AssemblyName>ca_react_sqlite.Application</AssemblyName>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>
